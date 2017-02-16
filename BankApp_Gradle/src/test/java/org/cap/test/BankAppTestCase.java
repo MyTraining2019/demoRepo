@@ -43,7 +43,7 @@ public class BankAppTestCase {
 	@Category(GoodTestCategory.class)
 	@Test
 	public void test_addNumbers() {
-		assertEquals(10, accountService.addNumbers(10, 20));
+		assertEquals(30, accountService.addNumbers(10, 20));
 	}
 	
 	@Category(GoodTestCategory.class)
