@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.cap.test.MyDemoTestCase" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-02-16T11:47:02" hostname="LIN73000499" time="0.021">
+  <properties/>
+  <testcase name="test" classname="org.cap.test.MyDemoTestCase" time="0.0"/>
+  <testcase name="test" classname="org.cap.test.MyDemoTestCase" time="0.0"/>
+  <testcase name="test" classname="org.cap.test.MyDemoTestCase" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

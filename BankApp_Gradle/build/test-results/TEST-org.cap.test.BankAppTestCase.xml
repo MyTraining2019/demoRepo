@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.cap.test.BankAppTestCase" tests="9" skipped="0" failures="0" errors="0" timestamp="2017-02-16T11:47:02" hostname="LIN73000499" time="0.053">
+  <properties/>
+  <testcase name="test_addNumbers" classname="org.cap.test.BankAppTestCase" time="0.003"/>
+  <testcase name="test_SumNumbers_Method" classname="org.cap.test.BankAppTestCase" time="0.025"/>
+  <testcase name="test_customer_with_null_addAccount" classname="org.cap.test.BankAppTestCase" time="0.001"/>
+  <testcase name="test_addAccount_with_invalid_inital_Amount" classname="org.cap.test.BankAppTestCase" time="0.003"/>
+  <testcase name="test_addNumbers" classname="org.cap.test.BankAppTestCase" time="0.0"/>
+  <testcase name="test_SumNumbers_Method" classname="org.cap.test.BankAppTestCase" time="0.001"/>
+  <testcase name="test_customer_with_null_addAccount" classname="org.cap.test.BankAppTestCase" time="0.0"/>
+  <testcase name="test_addAccount_with_invalid_inital_Amount" classname="org.cap.test.BankAppTestCase" time="0.0"/>
+  <testcase name="test_addAccount_with_invalid_inital_Amount" classname="org.cap.test.BankAppTestCase" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

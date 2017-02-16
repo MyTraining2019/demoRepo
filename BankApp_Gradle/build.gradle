@@ -1,0 +1,35 @@
+apply plugin: 'java'
+apply plugin: 'sonar-runner'
+
+group = 'BankApp_Gradle'
+version = '0.0.1-SNAPSHOT'
+
+description = 'Bank App Using Gradle'
+
+
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+         maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+	testCompile 'junit:junit:4.12'
+	compile group: 'junit', name: 'junit', version:'4.1'
+    compile group: 'org.mockito', name: 'mockito-all', version:'1.9.5'
+    //compile group: 'commons-logging', name: 'commons-logging', version: '1.1'
+    compile 'org.apache.commons:commons-lang3:3.3.2'
+}
+
+task wrapper(type: Wrapper){
+	gradleVersion = '2.6'
+}
+
+sonarRunner {
+	 sonarProperties {
+	   property "sonar.projectName", "BankApp_Gradle"
+	   property "sonar.projectKey", "org.sonarqube:java-gradle-simple"
+	 }
+	}
